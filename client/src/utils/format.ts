@@ -1,6 +1,6 @@
 export function formatCurrency(number: number): string {
   // Convert the number to a string and split it into parts for digits and decimals
-  const [digits, decimals] = number.toFixed(2).split(".");
+  const [digits] = number.toFixed(2).split(".");
 
   // Format the digits part with thousand separators
   const formattedDigits = digits.replace(/\B(?=(\d{3})+(?!\d))/g, ".");

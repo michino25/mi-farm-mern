@@ -15,7 +15,7 @@ export default function ProductList() {
   const products = useSelector(selectProducts);
 
   useEffect(() => {
-    dispatch(getProducts());
+    dispatch(getProducts(""));
   }, [dispatch]);
 
   const seeMore = () => {
