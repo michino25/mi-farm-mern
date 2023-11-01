@@ -115,8 +115,8 @@ router.get("/", async (req, res) => {
 
       products = await Product.find()
         .sort({ createdAt: -1 })
-        // .skip(skip)
-        // .limit(perPage)
+        .skip(skip)
+        .limit(perPage)
         .populate("category");
     }
     res.status(200).json(products);
