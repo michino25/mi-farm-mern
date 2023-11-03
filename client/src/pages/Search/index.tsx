@@ -30,7 +30,7 @@ export default function SearchPage({ type }: Prop) {
       case "category": {
         dispatch(getAllCategories());
         if (cat?.name) setTitle("Loại sản phẩm: " + cat.name);
-        else setTitle("Chủ đề " + id);
+        else setTitle("Loại sản phẩm: " + id);
         break;
       }
       case "search": {

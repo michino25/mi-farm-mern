@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/login",
+      "dest": "/"
+    },
+    {
+      "src": "/register",
+      "dest": "/"
+    },
+    {
+      "src": "/test",
+      "dest": "/"
+    },
+    {
+      "src": "/cart",
+      "dest": "/"
+    },
+    {
+      "src": "/product/([a-z0-9]+)/?",
+      "dest": "/"
+    },
+    {
+      "src": "/category/([a-z0-9]+)/?",
+      "dest": "/"
+    },
+    {
+      "src": "/search/([a-z0-9]+)/?",
+      "dest": "/"
+    }
+  ]
+}
