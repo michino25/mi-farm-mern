@@ -1,6 +1,6 @@
 # miFarm Ecommerce MERN
 
-mifarm is a web-based ecommerce that uses MERN. It is dedicated to the sale of fresh vegetables and agricultural products.
+mifarm is a web-based ecommerce platform that utilizes the MERN stack. It is dedicated to the sale of fresh vegetables and agricultural products.
 
 Technologies: TypeScript, Node.js, Express, MongoDB, RESTful API, ReactJS, React-Router, Tailwind, Redux, Redux Thunk
 
@@ -16,9 +16,7 @@ Technologies: TypeScript, Node.js, Express, MongoDB, RESTful API, ReactJS, React
 - Product List
 - Search
 
-## Get Started
-
-#### 1. Installation
+## Installation
 
 To get started, open your command prompt and run the following commands:
 
